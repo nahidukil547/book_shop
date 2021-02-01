@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+html{
+    font-size: 65.2%;
+}
+:root{
+    /* font  */
+    --font:sans-serif;
+    /* color cobination  */
+    --bg:#e6e6e6;
+    --text:#000000;
+    --footer:#5f6a72;
+    --body:#d1d1d1;
+    --shadow:#97a4ad;
+    --option_text:#252b3f;
+    --button:#465279;
+    --nav__bg:#9BAFB5;
+}
+body{
+    font-family:'poppins' sans-serif;
+    background: var(--bg);
+}
+
+.clearfix{
+    clear: both;
+}
+
+p{
+    font-size: 1.6rem;
+    color: var(--option_text);
+}
+
+img{
+    width: 100%;
+
+}
+/* header strate css */
+
+/* top header  */
+.header__section{
+    position: relative
+}
+
+.header__icon{
+    font-size: 1.6rem;
+    padding:.5rem 0rem ;
+
+}
+.header__link{
+    text-decoration: none;
+    color:#505077;
+    font-size: 1.8rem;
+}
+.header__link:hover{
+    color: #3d2723;
+}
+.btn__bg{
+    background: var(--button);
+    color: #fff;
+    font-size: 1.6rem ;
+    padding: .5rem 5rem;
+    position: absolute;
+    top: .2rem;    
+    left: 65%;
+}
+.btn__bg:hover{
+    color: #FFF;
+}
+.modal__trigger{
+    position: relative;
+}
+
+.modal__btn{
+    font-size: 1.6rem;
+    color: #181717b7;
+    background: var(--bg);
+    position: absolute;
+    top: 0rem;
+    right:  0rem;
+}
+/* top header end  */
+
+/* navigation header  */
+.navigation__search{
+    height: 22rem; 
+    margin: auto;
+   padding-top: 10rem   ;
+}
+.navigation__chart{
+    padding-top: 10rem;
+}
+
+/* navigation header end  */
+
+.nav__brand{
+    width: 80px;
+   
+}
+.header__footer__bg{
+    background: var(--nav__bg) !important;
+    position: relative;
+    width: 100%;
+    height: 4rem;
+}
+.header__item{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--option_text) !important;
+    padding: 0 1.5rem !important;
+    position: relative;
+    width: 100%;
+}
+
+.header__hover__manu{
+    width: 15rem;
+    background: #c2cfd3;
+    list-style-type: none;
+    padding:1rem  2rem ;
+    font-size: 1.6rem;
+    position: absolute;
+    top:3.4rem;
+    left: 16%;
+    box-shadow: 0px 0px 5px 2px var(--shadow);
+    display: none;
+    
+}
+.header__item:hover{
+   
+    .header__hover__manu{
+        display: block;
+        transition: all 2s ease;
+        transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: ease;
+        transition-delay: 2s;
+    }
+    .hover__bg{
+        display: inline-block;
+    }
+}
+
