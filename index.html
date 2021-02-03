@@ -14,15 +14,15 @@
     <link rel="stylesheet" href="css/carousel/owl.carousel.css">
     <!-- owl carousel theme  -->
     <link rel="stylesheet" href="css/carousel/owl.theme.default.css">
-    <!-- coustome css  -->
+    <!-- main css  -->
     <link rel="stylesheet" href="css/style.css">
     <!-- responsive css  -->
     <link rel="stylesheet" href="css/responsive/responsive.css">
 </head>
 
 <body>
-    <!-- strat  -->
-    <!-- header strat  -->
+    <!-- strate  -->
+    <!-- header strate  -->
     <header>
         <div class="container">
             <!-- top header strate  -->
@@ -139,7 +139,6 @@
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control form-control-lg "
                                     placeholder="Search for Products" style="height:50px; font-size: 16px;">
-
                                 <span class="input-group-text p-3 px-5"
                                     style="font-size: 18px; color: #fff;background:#465279 ;">
                                     <i class="fa fa-search" style="padding-right: 10px;"></i>
@@ -154,15 +153,16 @@
                         <div class="col-4 pt-4">
                             <span type="button" class="btn" style="position: relative;">
                                 <i class="fa fa-shopping-cart" style="font-size: 25px;color: none;"></i>
-                                 <sup  style="color: #f0a400; font-size: 15px; position: absolute;top: 5px;">4</sup>
-                              </span>
-                             
+                                <sup style="color: #f0a400; font-size: 15px; position: absolute;top: 5px;">4</sup>
+                            </span>
                         </div>
                         <div class="col-8 p-3">
                             <div class="row">
                                 <p style="overflow: hidden;"> Shopping</p>
                             </div>
-                            <div ><p style="font-weight: bold; color: #e79e00;">$ 0</p></div>
+                            <div>
+                                <p style="font-weight: bold; color: #e79e00;">$ 0</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -170,63 +170,549 @@
         </div>
         <!-- navigation header end  -->
 
-        <!-- header footer strate   -->
+        <!-- footer header strate   -->
         <nav class="navbar navbar-expand-lg navbar-light header__footer__bg">
-            <div class="container p-3">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-             
-             
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item hover__item">
-                    <a class="nav-link header__item" href="#">Home
-                        <i class="fa fa-angle-down" ></i>
-                            <ul class="header__hover__manu">
-                                <li>
-                                    About
-                                </li>
+                </button>
+                <a class="navbar-brand nav__brand" href="#"><img src="img/logo/header .png" alt=""></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav__item">
+                            <a class="nav__link " href="#">
+                                Home
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="nav__menu">
+                                <li>About</li>
                             </ul>
-                    </a>
-                    
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link header__item" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link header__item" href="#" >
-                        Category
-                        <i class="fa fa-angle-down" ></i>
-                        <!-- <div class="hover__bg"> -->
-                            <ul class="header__hover__manu">
-                                <li> উপন্যাস সমগ্র্য</li>
-                                <li>কবিতার বই   </li>
-                                <li> দেশ ও ভ্রমণ  </li>
-                                <li> পাঠ্য বই  </li>
-                                <li> রহস্য ও গোয়েন্দা  </li>
-    
-                            </ul>
-                        <!-- </div> -->
+                        </li>
+                        <div class="nav__menu__bg">
+                        </div>
 
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link header__item " href="#">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link header__item " href="#">Contact </a>
-                  </li>
-                </ul>
-              </div>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="nav__item ">
+                            <a class="nav__link " href="#">
+                                Category
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="nav__menu">
+                                <li>উপন্যাস সমগ্র্য</li>
+                                <li>কবিতার বই</li>
+                                <li>দেশ ও ভ্রমণ</li>
+                                <li>পাঠ্য বই</li>
+                                <li>মুক্তিযুদ্ধ</li>
+                                <li>রহস্য ও গোয়েন্দা</li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link " href="#">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link " href="#">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            Recently Viewed
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </nav>
-        <!-- header footer end  -->
+        </nav>
+        <!-- footer header end  -->
     </header>
 
     <!-- header end  -->
-    <!-- end  -->
 
+    <!-- add carousel strate -->
+    <div class="container py-5 my-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel__item active">
+                    <img src="img/books/banner/5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item carousel__item">
+                    <img src="img/books/banner/4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" ></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" ></span>
+            </a>
+        </div>
+    </div>
+    <!-- add carousel end -->
+
+    <!-- menu options strate-->
+    <div class="container">
+        <div class="row menu__row" style="display: flex !important;">
+            <div class="  menu ">
+                <a href="nojrul.html" > 
+                    <i class="fa fa-book" style="font-size: 3.5rem; "></i>
+                    <span style="font-size: 2rem; padding: 0rem 1rem; font-weight: bold;">নজরুল উপন্যাস</span>
+                </a>
+            </div>
+            <div class="  menu ">
+                <a> 
+                    <i class="fa fa-book" style="font-size: 3.5rem; "></i>
+                    <span style="font-size: 2rem; padding: 0rem 1rem; font-weight: bold;">হুমাউন উপন্যাস</span>
+                </a>
+            </div>
+            <div class="  menu ">
+                <a> 
+                    <i class="fa fa-bookmark" style="font-size: 3.5rem; "></i>
+                    <span style="font-size: 2rem; padding: 0rem 1rem; font-weight: bold;"> উপন্যাস</span>
+                </a>
+            </div>
+            <div class="  menu ">
+                <a> 
+                    <i class="fa fa-road" style="font-size: 3.5rem; "></i>
+                    <span style="font-size: 2rem; padding: 0rem 1rem; font-weight: bold;">কবিতার বই </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- menu options end-->
+
+    <!-- nojrul  carousel section  -->
+    <div class="container">
+        <div class="carousel__section">
+            <span style="font-size: 3rem; margin: 2rem; margin-bottom: 3rem; font-weight: bold;">নজরুল উপন্যাস</span>
+            <div class="owl-carousel owl-theme" style="align-items: center; justify-content: center; padding-left: 5rem;">
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/19.jpg" style="height: 35rem;"  alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">সর্বহারা</h4>
+                            <p class="card-text" style="color: #d69b1c;"> ৳ ১৫৮</p>
+                        </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                       <a href="#">
+                        <img src="img/books/20.jpg"  style="height: 35rem;"   alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">দোলন-চাপা</h4>
+                            <p class="card-text" style="color: #d69b1c;"> ৳ ২১৫</p>
+                        </div>
+                       </a>
+
+                       <div class="btn-group button__group">
+                        <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                        <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/21.jpg"  style="height: 35rem;"   alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">জনগনের কবি</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৮০</p>
+                            </div>
+                        </a>
+
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/22.jpg" style="height: 35rem;"  alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title"> নজরুল রচনাবলী</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৩৪</p>
+                            </div>
+                        </a>
+
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/23.jpg"  style="height: 35rem;"   alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">নতুন চাঁদ</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ৫২০</p>
+                            </div>
+                        </a>
+
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/24.jpg"  style="height: 35rem;"    alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">বিশের বাঁশি</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ৪১০</p>                        
+                            </div>
+                        </a>
+
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/28.jpg"  style="height: 35rem;"    alt="...">
+                        <div class="card-body">
+                        <h4 class="card-title">সঞ্চিতা</h4>
+                        <p class="card-text" style="color: #d69b1c;"> ৳ 442</p>
+                        </div>
+                        </a>
+
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/29.jpg" style="height: 35rem;"   alt="...">
+                            <div class="card-body">
+                            <h4 class="card-title">ফনি-মনসা</h4>
+                            <p class="card-text" style="color: #d69b1c;"> ৳ ১৫৮</p>
+                            </div>
+                        </a>
+
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                       <a href="#">
+                        <img src="img/books/30.jpg"  style="height: 35rem;"    alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">অগ্নিবীনা</h4>
+                            <p class="card-text" style="color: #d69b1c;"> ৳ ১৫৮</p>
+                        </div>
+                       </a>
+
+                       <div class="btn-group button__group">
+                        <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                        <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/31.jpg" style="height: 36rem;"  alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">ব্যথার দান</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৫৮</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 2rem; ">
+                        <a href="nojrul.html" target="_blank" class="btn" style=" background: #465279; width:100%;height:85%;  padding-top: 13rem;"> <h3 style=" border-bottom: 3px solid #131722;  width: 50%; margin: 0 auto;">Show more</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- nojrul carousel section end  -->
+    <!-- humaun carousel section  -->
+    <div class="container">
+        <div class="carousel__section">
+            <span style="font-size: 3rem; margin: 2rem; margin-bottom: 3rem; font-weight: bold;">হুমাউন উপন্যাস </span>
+            <div class="owl-carousel owl-theme" >
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                       <a href="#">
+                            <img src="img/books/9.jpg" style="height: 35rem;"  alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">ভ্রমন সমগ্র্য</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৫৮</p>
+                            </div>
+                       </a>
+
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/humaun/3.jpg"  style="height: 35rem;"   alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">লীলাবতীর মূত্যু</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৮০</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/humaun/5.jpg"  style="height: 35rem;"   alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">বাসর </h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ৫২০</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/humaun/6.jpg"  style="height: 35rem;"    alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">আজ চিত্রার বিয়ে </h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ৪১০</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                       <a href="#">
+                            <img src="img/books/humaun/7.jpg"  style="height: 35rem;"    alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">মেঘের ওপর বাড়ি </h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ 442</p>
+                            </div>
+                       </a>
+                       <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/humaun/8.jpg" style="height: 35rem;"   alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">পাপ</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৫৮</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/humaun/9.jpg"  style="height: 35rem;"    alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">দেয়াল</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৫৮</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/humaun/10.jpg" style="height: 35rem;"  alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">তোমাকে </h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৫৮</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 2rem; ">
+                        <a href="#" class="btn" style=" background: #465279; width:100%; height:85%;  padding-top: 13rem;"> <h3 style=" border-bottom: 3px solid #131722; width: 50%; margin: 0 auto;">Show more</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- humaun carousel section end  -->
+    
+    <!-- uponnash carousel section  -->
+
+    <div class="container">
+        <div class="carousel__section">
+            <span style="font-size: 3rem; margin: 2rem; margin-bottom: 3rem; font-weight: bold;">উপন্যাস </span>
+            <div class="owl-carousel owl-theme" >
+                
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/uponnas/3.jpg"  style="height: 35rem;"   alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">এইসব দিন রাত্রি </h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৮০</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/uponnas/4.jpg"  style="height: 35rem;"   alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">বিষাক্ত </h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ৫২০</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 2rem; ">
+                        <a href="#" class="btn" style=" background: #465279; width:100%;  height:85%;    padding-top: 13rem;"> <h3 style=" border-bottom: 3px solid #131722;  width: 50%; margin: 0 auto;">Show more</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- uponnash carousel section end  -->
+
+    <!-- kobita book carousel section -->
+
+    <div class="container">
+        <div class="carousel__section">
+            <span style="font-size: 3rem; margin: 2rem; margin-bottom: 3rem; font-weight: bold;">কবিতার বই</span>
+            <div class="owl-carousel owl-theme" >
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                       <a href="#">
+                            <img src="img/books/kobita/1.jpg" style="height: 35rem;"  alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">কবিতা বই সংগ্রহ</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৫৮</p>
+                            </div>
+                       </a>
+
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 1rem;">
+                        <a href="#">
+                            <img src="img/books/kobita/2.jpg"  style="height: 35rem;"   alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">বেলা অবেলা কালবেলা</h4>
+                                <p class="card-text" style="color: #d69b1c;"> ৳ ১৮০</p>
+                            </div>
+                        </a>
+                        <div class="btn-group button__group">
+                            <a class="btn" style="font-size: 1.6rem; "> Add chart</a>
+                            <a href="#" class="btn eye__icon" style="font-size: 2rem; "><i class="fa fa-eye" ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card" style="width: 25rem; height: 45rem; padding: 2rem; ">
+                        <a  class="btn" style=" background: #465279; width:100%;  height:85%;    padding-top: 13rem;"> <h3 style=" border-bottom: 3px solid #131722; width: 50%; margin: 0 auto;">NO more</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- kobita book carousel section  -->
+
+    <!-- navigation add section -->
+    <div class="container px-5"  >
+        <a href="#">
+            <img class=" rounded" style="height: 25rem; width: 100%;" src="img/books/banner/3.jpg" alt="">
+        </a>
+    </div>
+    <!-- navigation add section end -->
+
+     <!-- best sell books  -->
+
+      <!-- best sell books  end-->
+
+    <!-- end  -->
     <!-- bootstrap js  -->
     <script src="js/bootstrap/bootstrap.min.js"></script>
 
