@@ -28,6 +28,15 @@
         width: 100%;
         height: 13vh;
     }
+    .nav__item{
+        background: var(--nav__bg);
+        z-index: 9;
+        position: relative;
+        top: 3rem;
+    }
+    .nav__menu{
+        z-index: 100;
+    }
 }
 
 @media screen and (min-width:991px){
@@ -40,6 +49,34 @@
     .menu{
         width: 60%;
     }
+    .carousel__card{
+        margin: 0 auto;
+    }
+    /* .item{
+        
+    } */
+    .container{
+        width: 100% !important;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .carousel__section{
+        padding: none;
+    }
+    
+}
+
+@media screen and (max-width:568px){
+    .menu{
+        width:100%;
+    }
+}
+@media screen and (max-width:400px){
+    .carousel__section{
+        padding: 0rem !important;
+        width: 100% !important;
+        
+    }
 }
 @media screen and (max-width:400px){
     .menu{  
@@ -51,6 +88,11 @@
     .carousel__section{
         padding: 1rem;
     }
+    .owl-theme{
+        padding: 0rem;
+    }
     
-    
+    .container{
+        width: 100% !important;
+    }
 }
