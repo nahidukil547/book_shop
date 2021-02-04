@@ -14,9 +14,9 @@ html {
   /* font  */
   --font:sans-serif;
   /* color combination  */
-  --bg:#e6e6e6;
+  --bg:#faf5dd;
   --text:#000000;
-  --footer:#5f6a72;
+  --footer:#5d6969cc;
   --body:#d1d1d1;
   --shadow:#97a4ad;
   --option_text:#252b3f;
@@ -27,6 +27,7 @@ html {
 body {
   font-family: 'poppins' sans-serif;
   background: var(--bg);
+  scroll-behavior: smooth;
 }
 
 .clearfix {
@@ -40,19 +41,24 @@ p {
 
 a{
   text-decoration: none;
-  color: var(--text);
+  color: var(--option_text);
 }
 a:hover{
-  color: var(--option_text);
+  color: var(--text);
 }
 
 img {
   width: 100%;
   height: 100%;
 }
+strong{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
 
 /* header strate css */
 /* top header  */
+
 .header__section {
   position: relative;
 }
@@ -133,6 +139,7 @@ img {
 .nav__link{
   font-size: 1.8rem;
   font-weight: 700;
+  color: var(--option_text);
 }
 
 .nav__menu{
@@ -234,10 +241,11 @@ img {
     padding: 2rem;
     box-shadow: 0rem 0rem .5rem .2rem var(--shadow);
     margin: 1rem;
+    background: #fff;
 }
 
 /* menu end  */
-/* nojrul carousel  */
+/* book carousel  */
 .carousel__section{
   width: auto;
   height: 60rem;
@@ -246,6 +254,7 @@ img {
   margin: 5rem 0rem;
   padding: 4rem ;
   align-items: center;
+  background: #fdf7e5;
 }
 .carousel__card{
   width: 25rem;
@@ -270,7 +279,7 @@ img {
 }
 .button__group{
   position: relative;
-  top: -10.5rem;
+  top: -12rem;
   background:#fbb726c2 ;
   width: 60%;
   margin: 0 auto;
@@ -285,4 +294,14 @@ img {
   align-items: center; 
   justify-content: center; 
   padding-left: 2rem;
+}
+/* book carousel end  */
+/* footer section  */
+footer{
+  background: var(--footer);
+}
+/* footer section  */
+/* next page  */
+.nojrul__container{
+  padding: 2rem;
 }

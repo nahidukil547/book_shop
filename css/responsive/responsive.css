@@ -10,6 +10,11 @@
         width: 45%;
         display: flex;
     }
+    .carousel__card{
+        margin: 2rem auto;
+
+    }
+
 }
 
 
@@ -44,6 +49,9 @@
     .nav__menu{
         z-index: 100;
     }
+    .item{
+        
+    }
 }
 
 @media screen and (min-width:991px){
@@ -57,7 +65,8 @@
         width: 60%;
     }
     .carousel__card{
-        margin: 0 auto;
+        margin: 2rem auto;
+
     }
     /* .item{
         
@@ -70,13 +79,19 @@
     .carousel__section{
         padding: none;
     }
-    
+    .footer__text{
+        padding: 0 !important;
+        width: 250px;
+        margin: 0 auto;
+        border-top: 1px solid #626864;
+    }
 }
 
 @media screen and (max-width:568px){
     .menu{
         width:100%;
     }
+
 }
 @media screen and (max-width:400px){
     .carousel__section{
