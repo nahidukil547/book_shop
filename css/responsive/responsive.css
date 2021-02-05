@@ -61,6 +61,9 @@
     .carousel__section{
         padding: 1rem;
     }
+    .navbar-toggler-icon{
+        color: #fff;
+    }
 }
 
 @media screen and (min-width:991px){
