@@ -143,13 +143,15 @@ strong{
 }
 
 .nav__menu{
+  z-index: 100;
   list-style: none;
   font-size: 1.6rem;
   position: absolute;
-  background: var(--nav__bg);
+  background: #86979c;
   padding: 1.5rem 5rem;
   border-radius: .2rem;
  display: none;
+ 
 }
 /* header footer end  */
 
@@ -309,6 +311,3 @@ footer{
 .footer__text{
   color: #fff;
 }
-
-
-
