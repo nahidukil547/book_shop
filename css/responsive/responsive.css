@@ -101,6 +101,32 @@
         width:100%;
     }
 
+    .nav__menu{
+        width: 100%;
+        list-style: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    position: absolute;
+    left: .1rem;
+    top: 11.2rem;
+    background: #c2dde4;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    display: none;
+    }
+    .nav__about__menu{
+        width: 100%;
+        list-style: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    position: absolute;
+    left: .1rem;
+    top: 18rem;
+    background: #c2dde4;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    display: none;
+    }
 }
 @media screen and (max-width:400px){
     .carousel__section{
@@ -125,5 +151,8 @@
     
     .container{
         width: 100% !important;
+    }
+    .menu{
+        width:100%;
     }
 }
