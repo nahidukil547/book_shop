@@ -58,8 +58,8 @@
     border-radius: .5rem;
     display: none;
     }
-    .item{
-        
+    .carousel__section{
+        padding: 1rem;
     }
 }
 
@@ -86,13 +86,14 @@
         margin: 0 auto;
     }
     .carousel__section{
-        padding: none;
+        padding: 1rem;
     }
     .footer__text{
         padding: 0 !important;
         width: 250px;
         margin: 0 auto;
         border-top: 1px solid #626864;
+        
     }
     
    
@@ -162,4 +163,16 @@
         width:100%;
     }
     
+    .footer__text{
+        width: 70%;
+    }
+    .footer__icon__facebook{
+        display: none;
+    }
+    .footer__icon__youtube{
+        display: none;
+    }
+    .footer__icon__twiter{
+        display: none;
+    }
 }

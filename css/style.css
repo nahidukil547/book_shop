@@ -311,3 +311,16 @@ footer{
 .footer__text{
   color: #fff;
 }
+.footer__icon__twiter{
+  padding: 1.5rem 1.2rem 1rem 1.5rem; border-radius: .5rem;
+   background: #33A9F2;
+    color: #bfd5e7; 
+    margin: 1rem;
+}
+.footer__icon__youtube{
+  padding: 1.5rem 1.2rem 1rem 1.5rem; 
+  border-radius: .5rem; 
+  background: #eb1818;
+   color: #e4e4e4; 
+   margin: 1rem;
+}
