@@ -120,7 +120,7 @@ strong{
 /* navigation header end  */
 /*footer header */
 .header__footer__bg {
-  background: #9BAFB5;
+  background:#465279;
   padding: 0rem !important;
   z-index: 1;
 }
@@ -139,7 +139,7 @@ strong{
 .nav__link{
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--option_text);
+  color: #cfdde2 !important;
 }
 
 .nav__menu{
@@ -147,7 +147,7 @@ strong{
   list-style: none;
   font-size: 1.6rem;
   position: absolute;
-  background: #86979c;
+  background: #bfd1d6;
   padding: 1.5rem 5rem;
   border-radius: .2rem;
  display: none;
@@ -243,7 +243,7 @@ strong{
     padding: 2rem;
     box-shadow: 0rem 0rem .5rem .2rem var(--shadow);
     margin: 1rem;
-    background: #fff;
+    background: rgb(236, 236, 236);
 }
 
 /* menu end  */
