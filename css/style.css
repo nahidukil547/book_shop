@@ -16,7 +16,7 @@ html {
   /* color combination  */
   --bg:#faf5dd;
   --text:#000000;
-  --footer:#5d6969cc;
+  --footer:#232d50;
   --body:#d1d1d1;
   --shadow:#97a4ad;
   --option_text:#252b3f;
@@ -298,10 +298,17 @@ strong{
 /* book carousel end  */
 /* footer section  */
 footer{
-  background: var(--footer);
+  background: var(--button);
+  color:#cfcbcb;
 }
 /* footer section  */
 /* next page  */
 .nojrul__container{
   padding: 2rem;
 }
+.footer__text{
+  color: #fff;
+}
+
+
+
