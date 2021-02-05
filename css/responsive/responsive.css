@@ -94,6 +94,8 @@
         margin: 0 auto;
         border-top: 1px solid #626864;
     }
+    
+   
 }
 
 @media screen and (max-width:568px){
@@ -113,6 +115,7 @@
     padding: .5rem 1rem;
     border-radius: .5rem;
     display: none;
+   
     }
     .nav__about__menu{
         width: 100%;
@@ -126,6 +129,9 @@
     padding: .5rem 1rem;
     border-radius: .5rem;
     display: none;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        z-index: -1 !important;
     }
 }
 @media screen and (max-width:400px){
@@ -155,4 +161,5 @@
     .menu{
         width:100%;
     }
+    
 }
