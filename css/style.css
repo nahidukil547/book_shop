@@ -131,7 +131,7 @@ strong{
 
 .nav__item{
   /* background: red; */
-  padding: 0rem 1rem;
+  padding: 2rem 1rem;
 }
 .nav__item:hover .nav__menu{
   display: block;
@@ -153,10 +153,18 @@ strong{
  display: none;
  
 }
+.menu__link{
+  width: 100%;
+  padding: 2rem;
+}
 /* header footer end  */
 
 /* add carousel  */
+.full__carousel{
+  background: rgba(255, 255, 255, 0.315);
+}
 .carousel__item{
+  background: #fff;
   width: 100%;
   height: 45rem;
   z-index: -1;
@@ -240,7 +248,6 @@ strong{
   overflow: hidden;
     display: flex;
     align-items: center;
-    padding: 2rem;
     box-shadow: 0rem 0rem .5rem .2rem var(--shadow);
     margin: 1rem;
     background: rgb(236, 236, 236);
@@ -324,3 +331,27 @@ footer{
    color: #e4e4e4; 
    margin: 1rem;
 }
+.footer__icon__facebook{
+  padding: 1.5rem 2rem 1rem 2rem;
+  border-radius: .5rem; 
+  background: #2d426b;
+   color: #e8eaeb; 
+   margin: 1rem;
+}
+
+/* book page  */
+.img__page{
+  padding-top: 2rem ;
+  margin: 0 auto;
+  width: 90%;
+  height: 70rem;
+ 
+}
+.fa-star{
+  color:#626864c9 ;
+  font-size: 1.6rem;
+}
+.stars:hover .fa-star  {
+  color: yellow;
+}
+style="color: #626864c9;font-size: 1.2rem;"
